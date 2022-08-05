@@ -26,6 +26,9 @@ class Male(Human):  # implement class with parent class
     def pregnancy(self):
         return self.name, "cannot get pregnant"
 
+    def ethnicity(self):
+        return self._ethnicity  # function trying to access protected member within class.
 
 male_object = Male()
 print(male_object.masc_testos)
+print(male_object.ethnicity())

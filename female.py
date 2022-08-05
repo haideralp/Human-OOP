@@ -9,7 +9,7 @@ class Female(Human): # implement class with parent class
         self.femin_oestro = True
         self.reproduce = True
         self._ethnicity = "Asian"
-        self.__medical_condition = "PCOS"
+        self.__condition = "PCOS"
 
     def called(self): # class method returns a concatenated string using variables
         return self.title, "They are addressed as Miss"
@@ -18,10 +18,11 @@ class Female(Human): # implement class with parent class
 
     def produce(self):
         return "It is", self.title, self.name, " that can produce oestrogen"
-
     def pregnancy(self):
         return self.name, "can get pregnant"
 
+    def condition(self):
+        return self.__condition # function trying to access private information
+
 female_object = Female()
 print(female_object.pregnancy())
-print(female_object._medical_condtion())
