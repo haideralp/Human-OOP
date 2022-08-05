@@ -40,7 +40,7 @@ class Male(Human):  # implement class with parent class
         self.height = "1.76"
         self.masc_testos = True         #. (attribute) - define as public variables for access.
         self.reproduce = False
-        self._ethnicity = "Caucasian"    # _.ethnicity (single underscore) defined as protected information
+        self._ethnicity = "Caucasian"    # _.ethnicity (single underscore) defined as protected information (Encapsulation)
         self.__medical_condition = "ADHD"  #.__medical_condition (double underscore) defined as private information
     def called(self):  # class method returns a concatenated string using variables
         return self.title, "They are addressed as Mr"
