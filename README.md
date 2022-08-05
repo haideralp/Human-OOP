@@ -1,10 +1,19 @@
 # Demonstrating Ojected Oriented Programming (Human)
  
-## Diagram Showing An Overview of Design
+## What is OOP ?
+
+
+## What Are The Four Key Pillars of OOP:
+-  Abstraction
+-  Inheritance
+-  Encapsulation
+-  Polymorphism
+
+### Diagram Showing An Overview of Design
 ![Planning](https://user-images.githubusercontent.com/97620055/183029584-b7cc7a3a-c54a-4a2a-9421-f79008422f70.png)
 
 
-Human  - Parent Class
+### Step 1 Code for displayed for Human Parent Class 
 ```python
 class Human:
 
@@ -28,7 +37,7 @@ cat = Human()
 print(cat.sleep()) # we abstracted how was eat created or what info is available.
 ```
 
-Male Subclass
+### Step 2: Code displayed for Male Subclass
 ``` Python
 class Male(Human):  # implement class with parent class
 
@@ -61,8 +70,7 @@ male_object = Male()
 print(male_object.masc_testos)
 print(male_object.ethnicity())
 ```
-
-Female Sub Class 
+### Step 3: Code displayed for Female Subclass
 
 ``` Python
 from human import Human
@@ -94,7 +102,7 @@ class Female(Human): # implement class with parent class
 female_object = Female()
 print(female_object.pregnancy())
 ```
-Boy Sub Class
+### Step 4: Code displayed for Boy Subclass
 
 ``` python
 from male import Male
@@ -124,7 +132,7 @@ boy_object = Boy()
 print(boy_object.plays_sports())
 ```
 
-Girl Sub Class
+### Step 5: Code displayed for Girl Subclass
 
 ``` Python
 from female import Female
