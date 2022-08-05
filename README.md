@@ -46,7 +46,7 @@ class Male(Human):  # implement class with parent class
         return self.title, "They are addressed as Mr"
 
     def name(self):  #
-        return self.title, "They are addressed as Mr"
+        return self.name, "They are addressed as Maximus"
 
     def produce(self):
         return "It is", self.title, self.name, " that can produce testosterone"
