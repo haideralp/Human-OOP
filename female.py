@@ -5,8 +5,11 @@ class Female(Human): # implement class with parent class
         super().__init__()
         self.title = "Miss"
         self.name = "Tara"
+        self.height = "1.66"
         self.femin_oestro = True
         self.reproduce = True
+        self._ethnicity = "Asian"
+        self.__medical_condition = "PCOS"
 
     def called(self): # class method returns a concatenated string using variables
         return self.title, "They are addressed as Miss"
@@ -21,3 +24,4 @@ class Female(Human): # implement class with parent class
 
 female_object = Female()
 print(female_object.pregnancy())
+print(female_object._medical_condtion())

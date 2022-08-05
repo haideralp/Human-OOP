@@ -7,6 +7,7 @@ class Girl(Female):  # implement class from Female Class
     def __init__(
             self):  # use constructor to initialise attributes, using super() to initialise parent class' attributes as well
         super().__init__()
+        self.height = "1.57"  # Re-assigned correct height in girl subclass (Polymorphism)
         self.school_name = "Cranford High School"
         self.fav_food = "chinese dishes"
         self.sports = "netball"
