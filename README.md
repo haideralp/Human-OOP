@@ -1,4 +1,4 @@
 # Demonstrating OOP Pillars in Human Design
  
 ## Diagram showing an overview of design
-![Human diagram](https://user-images.githubusercontent.com/97620055/182889472-943a1f2c-5593-49ca-b89c-d9c8298bd0e5.PNG)
+![Planning](![image](https://user-images.githubusercontent.com/97620055/183029584-b7cc7a3a-c54a-4a2a-9421-f79008422f70.png)
